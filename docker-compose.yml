@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  basisdollar-docs:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100M"
+        max-file: "3"
