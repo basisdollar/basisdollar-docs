@@ -23,7 +23,7 @@ Another similar project has been built based on the original Basis project i.e. 
 - The protocol caps the newly minted BSD in the case of expansion to a maximum of 15% of the total supply during each epoch. This prevents over-inflation, and is balanced out by the fact that epochs are shorter.
 - The debt issued is capped at 30% supply (maximum Basis Dollar Bonds generated for each contraction). Similarly, this prevents over-deflation.
 - The Basis Dollar Bonds have no expiry date. This reduces investor risk on total capital loss of the bonds.
-- The protocol keeps a minimum of 35% of the expanded supply for seigniorage shares for each expansion, which is an improvement over Basis Dollar which keeps all the new supply for Bond redemption if the balance is less than 1000 BSD.
+- The protocol keeps a minimum of 35% of the expanded supply for seigniorage shares for each expansion, which is an improvement over Basis Cash which keeps all the new supply for Bond redemption if the balance is less than 1000 BSD.
 - Use of ValueLiquid as a farm and swap pool as it it more gas-efficient in the long run.
 
 In addition, we propose a longer and fairer distribution schedule, as outlined in the [Launch Strategy](https://docs.basisdollar.fi/LaunchStrategy) section.
