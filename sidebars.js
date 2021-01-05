@@ -5,6 +5,7 @@ module.exports = {
       "Background",
       "ProtocolParameters",
       "FAQ",
+      "BIP",
     ],
     Components: ["Tokens", "CashPools"],
     Mechanisms: [
