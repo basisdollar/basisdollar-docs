@@ -7,6 +7,7 @@ module.exports = {
       "FAQ",
       "BIP",
     ],
+    Governance: ["ProtocolGovernance"],
     Components: ["Tokens", "CashPools"],
     Mechanisms: [
       "StabilizationMechanism",
